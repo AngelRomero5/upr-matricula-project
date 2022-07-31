@@ -65,7 +65,7 @@ body {
     position: absolute;
     width: 100%;
     background: url("images/tower2.png") no-repeat
-    center center fixed; 
+    center center; 
     background-size: cover;
 }
 
