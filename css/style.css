@@ -61,18 +61,18 @@ body {
 }
 
 .welcome-container {
-    padding: 8% 0 15% 10%;
+    padding: 8% 0 15% 0;
     position: absolute;
     width: 100%;
-    /* background-color: gray; */
-    background-image: url("images/tower2.png");
-    background-size:cover;
-    background-repeat: no-repeat;
+    background: url("images/tower2.png") no-repeat
+    center center fixed; 
+    background-size: cover;
 }
 
 
 .home-title {
     margin: 0;
+    margin-left: 7rem;
     color:black;
     font-size: 50px;
     text-shadow: 2px;
@@ -83,6 +83,7 @@ body {
 .home-p {
     font-family: 'Montserrat', sans-serif;
     color:black;
+    margin-left: 7rem;
     font-weight: 500;
     font-size: 19px;
     letter-spacing: 0.04rem;
